@@ -6,7 +6,7 @@ The run_analysis.R script assumes that the data is located in the same directory
 
 First, the script loads the "lookup" data from files.  One file relates the Activity Code (integer 1 through 6) with the Activity Name (descriptive text).  The second file contains the list of 561 features measured in the observation data.
 
-Next, we load the observation data from the test data set.  Observations coms from three files:
+Next, we load the observation data from the test data set.  Observations come from three files:
 - The first contains a single column with an identifier for the test subject (person being observed).
 - The second contains a single column with the activity (walking, laying, etc.)
 - The third contains the 561 measurements.
