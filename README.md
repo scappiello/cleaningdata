@@ -25,3 +25,34 @@ To get the dataset for step 5 of the assignment, we use the group_by() and summa
 
 Finally, this data frame is written out to a file.
 
+### Code book for output file measurements.txt:
+
+SubjectNumber:    Integer identifier for the subject (person) being measured.
+ActivityName:     Description of the activity performed by the subject.  Possible values are {WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING}.
+Remaining columns:  73 measurements as described in the feature_info.txt file from the dataset (excerpt below).  Each value in the dataset is the average across all measurements by Subject and Activity.
+
+For each of the following, there is an average of the mean and standard deviation measured.  Also note that where listed as "XYZ" there are three separate measurement columns.
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
+
+The average of each of the following columns is listed once (just the mean):
+- gravityMean
+- tBodyAccMean
+- tBodyAccJerkMean
+- tBodyGyroMean
+- tBodyGyroJerkMean
